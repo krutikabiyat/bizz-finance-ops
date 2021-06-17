@@ -2,13 +2,14 @@ package com.bizz.stocks.bizzfinanceops.controller;
 
 import com.bizz.stocks.bizzfinanceops.domain.Stock;
 import com.bizz.stocks.bizzfinanceops.domain.StockType;
-import com.bizz.stocks.bizzfinanceops.mapping.StockToDTOConverter;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * @author Krutika Mohanty
+ */
 @RestController
 public class StockController {
     @RequestMapping("/")
